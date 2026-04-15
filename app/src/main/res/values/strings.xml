@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Field Intelligence</string>
+
+    <!-- Bottom nav tabs -->
+    <string name="nav_map">Map</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_frequencies">Freqs</string>
+    <string name="nav_hazards">Hazards</string>
+
+    <!-- Map screen -->
+    <string name="center_on_me">Center on my location</string>
+    <string name="drop_pin_here">Drop pin here</string>
+    <string name="layers">Layers</string>
+    <string name="satellite">Satellite</string>
+    <string name="layer_notes">Notes</string>
+    <string name="layer_frequencies">Frequencies</string>
+    <string name="layer_hazards">Hazards</string>
+    <string name="layer_infrastructure">Infrastructure</string>
+    <string name="layer_generic">Generic pins</string>
+
+    <!-- Pin dialog -->
+    <string name="add_pin">Add Pin</string>
+    <string name="pin_title">Title</string>
+    <string name="pin_type">Type</string>
+    <string name="pin_location">Location</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Note dialog -->
+    <string name="add_note">Add Note</string>
+    <string name="note_title">Title</string>
+    <string name="note_body">Body</string>
+    <string name="note_hint">Enter your field observations\u2026</string>
+
+    <!-- Frequency dialog -->
+    <string name="log_frequency">Log Frequency</string>
+    <string name="frequency_mhz">Frequency (MHz)</string>
+    <string name="modulation">Modulation</string>
+    <string name="signal_quality">Signal Quality</string>
+    <string name="rx_notes">Reception notes</string>
+
+    <!-- Hazard dialog -->
+    <string name="add_hazard">Add Hazard</string>
+    <string name="hazard_severity">Severity</string>
+    <string name="hazard_category">Category</string>
+    <string name="hazard_description">Description</string>
+    <string name="hazard_expires">Set expiry (optional)</string>
+
+    <!-- Marker types -->
+    <string name="type_generic">Generic</string>
+    <string name="type_note">Note</string>
+    <string name="type_frequency">Frequency</string>
+    <string name="type_hazard">Hazard</string>
+    <string name="type_infrastructure">Infrastructure</string>
+
+    <!-- Modulation options -->
+    <string-array name="modulation_types">
+        <item>FM</item>
+        <item>AM</item>
+        <item>NFM</item>
+        <item>WFM</item>
+        <item>USB</item>
+        <item>LSB</item>
+        <item>CW</item>
+        <item>Digital</item>
+    </string-array>
+
+    <!-- Hazard categories -->
+    <string-array name="hazard_categories">
+        <item>Natural</item>
+        <item>Man-made</item>
+        <item>Chemical</item>
+        <item>Structural</item>
+        <item>Electrical</item>
+        <item>Biological</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Marker detail sheet -->
+    <string name="marker_detail">Marker Detail</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="logged_at">Logged</string>
+    <string name="no_notes">No notes attached</string>
+    <string name="no_frequencies">No frequencies logged</string>
+    <string name="no_hazards">No hazards attached</string>
+
+    <!-- Permissions -->
+    <string name="perm_location_rationale">Location permission is required to show your position on the map and track your movements.</string>
+
+    <!-- Empty states -->
+    <string name="empty_notes">No notes yet.\nDrop a pin and add one.</string>
+    <string name="empty_frequencies">No frequencies logged yet.</string>
+    <string name="empty_hazards">No hazards reported.</string>
+</resources>

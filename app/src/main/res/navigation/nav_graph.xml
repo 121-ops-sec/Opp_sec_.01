@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.opsec.fieldintelligence.ui.map.MapFragment"
+        android:label="@string/nav_map" />
+
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.opsec.fieldintelligence.ui.notes.NoteListFragment"
+        android:label="@string/nav_notes" />
+
+    <fragment
+        android:id="@+id/frequencyListFragment"
+        android:name="com.opsec.fieldintelligence.ui.frequency.FrequencyListFragment"
+        android:label="@string/nav_frequencies" />
+
+    <fragment
+        android:id="@+id/hazardListFragment"
+        android:name="com.opsec.fieldintelligence.ui.hazard.HazardListFragment"
+        android:label="@string/nav_hazards" />
+
+</navigation>

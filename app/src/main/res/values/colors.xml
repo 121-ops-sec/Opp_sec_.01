@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colours — dark tactical palette -->
+    <color name="colorPrimary">#1B2838</color>
+    <color name="colorPrimaryVariant">#0F1923</color>
+    <color name="colorOnPrimary">#E8EAED</color>
+    <color name="colorSecondary">#4FC3F7</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorBackground">#121820</color>
+    <color name="colorSurface">#1E2A38</color>
+    <color name="colorOnSurface">#E8EAED</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnError">#000000</color>
+
+    <!-- Marker pin colours -->
+    <color name="pinNote">#42A5F5</color>
+    <color name="pinFrequency">#66BB6A</color>
+    <color name="pinHazardLow">#FFA726</color>
+    <color name="pinHazardMedium">#FF7043</color>
+    <color name="pinHazardHigh">#EF5350</color>
+    <color name="pinGeneric">#BDBDBD</color>
+    <color name="pinInfrastructure">#AB47BC</color>
+
+    <!-- Severity badge colours -->
+    <color name="severityLow">#81C784</color>
+    <color name="severityMedium">#FFB74D</color>
+    <color name="severityHigh">#E57373</color>
+    <color name="severityCritical">#B71C1C</color>
+
+    <!-- Signal quality colours -->
+    <color name="signalNone">#616161</color>
+    <color name="signalPoor">#EF5350</color>
+    <color name="signalFair">#FFA726</color>
+    <color name="signalGood">#66BB6A</color>
+    <color name="signalExcellent">#42A5F5</color>
+
+    <!-- UI chrome -->
+    <color name="chipBackground">#2A3A4A</color>
+    <color name="divider">#2E3F50</color>
+    <color name="textPrimary">#E8EAED</color>
+    <color name="textSecondary">#9AA0A6</color>
+</resources>

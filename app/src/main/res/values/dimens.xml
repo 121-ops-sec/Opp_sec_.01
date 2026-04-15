@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="chip_corner_radius">16dp</dimen>
+    <dimen name="item_padding_horizontal">16dp</dimen>
+    <dimen name="item_padding_vertical">12dp</dimen>
+    <dimen name="marker_icon_size">32dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="layer_chips_top_margin">8dp</dimen>
+</resources>

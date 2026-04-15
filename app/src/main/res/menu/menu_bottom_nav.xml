@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_pin_generic"
+        android:title="@string/nav_map" />
+
+    <item
+        android:id="@+id/noteListFragment"
+        android:icon="@drawable/ic_pin_note"
+        android:title="@string/nav_notes" />
+
+    <item
+        android:id="@+id/frequencyListFragment"
+        android:icon="@drawable/ic_pin_frequency"
+        android:title="@string/nav_frequencies" />
+
+    <item
+        android:id="@+id/hazardListFragment"
+        android:icon="@drawable/ic_pin_hazard_medium"
+        android:title="@string/nav_hazards" />
+
+</menu>

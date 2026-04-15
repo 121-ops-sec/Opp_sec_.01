@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.jks
+*.keystore
+*.p12
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+*.iws
+*.ipr
+out/
+
+# Offline tile archives (user-sideloaded, not committed)
+app/src/main/res/raw/*.mbtiles
+app/src/main/res/raw/*.zip
